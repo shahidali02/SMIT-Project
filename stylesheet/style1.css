@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: #1d3557;
+}
+#userinput{
+    height: 100px;
+}
+#input{
+    background: transparent;
+}
+.buttons .btn{
+    margin-bottom: 8px;
+    min-width: 48%;
+    color: white;
+    background-color: #003560;
+}
+#outputbox{
+    padding-top: 0px;
+    text-align: center;
+    min-height: 20vh;
+}
+footer {
+    background-color: #1d3557;
+}

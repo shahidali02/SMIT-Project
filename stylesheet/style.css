@@ -1,0 +1,43 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(-70deg, #fa7c30 30%, rgba(0,0,0,0) 30%);
+}
+#username{
+    color: white;
+    background-color: #003560;
+}
+#email{
+    color: white;
+    background-color: #003560;
+}
+#password{
+    color: white;
+    background-color: #003560;
+}
+#username::placeholder{
+    color: white;
+    background-color: #003560;
+}
+#email::placeholder{
+    color: white;
+    background-color: #003560;
+}
+#password::placeholder{
+    color: white;
+    background-color: #003560;
+}
+span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #003560;
+}
+#icon{
+    color: white;
+    width: 15%;
+    border-radius: 4px;
+}

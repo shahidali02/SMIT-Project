@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!-- Custom css -->
+    <link rel="stylesheet" href="./stylesheet/style1.css">
+
+    <!-- Toastify -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+
+<title>Home page</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                  <a class="navbar-brand text-white" href="#">Project By ShahiD</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                      <li class="nav-item">
+                        <a class="nav-link text-white active" aria-current="page" href="#"></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-12">
+              <h4 class="text-center"><b>INPUT</b></h4>
+              <div class="border border-secondary rounded-1 p-3" id="userinput">
+                <div class="input-group mt-2 pt-1" >
+                  <input type="text" class="form-control form-control-lg" placeholder="Type your text here"  id="input">
+                  <button class="btn btn-outline-secondary" onclick="document.getElementById('input').value = ''">Clear</button>
+                </div>
+              </div>
+            </div>
+    <div class="py-3">
+        <div class="row mt-3 mt-md-5">
+          <div class="col-12 mt-md-0">
+              <h4 class="text-center"><b>BUTTONS</b></h4>
+              <div class="border border-secondary rounded-1 p-4 text-center buttons">
+                <button class="btn btn-lg" onclick="printAllCities()">Print All Cities</button>
+                <button class="btn btn-lg" onclick="addCity()">Add City</button>
+                </div>
+              </div>
+              <div class="col-12 mb-3 mb-md-0 mt-5">
+                  <h4 class="text-center"><b>OUTPUT</b></h4>
+                  <div class="border border-secondary rounded-1 text-center" id="outputbox">
+                    <div id="output">
+                    
+                    </div>
+                  </div>
+                  <div class="text-center">
+                    <button class="btn btn-outline-dark mt-4 rounded-1" onclick="document.getElementById('output').innerHTML = ''">Clear Output</button>
+                  </div>
+              </div>
+            </div>
+        </div>
+    </div>
+</div>
+</main>
+<footer>
+<p class="mt-5 py-3 mb-0 text-white text-center">
+  &copy; 2023. Assignment By <b>Muhammad ShahiD</b>
+</p>
+</footer>
+<!-- Bootsrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+crossorigin="anonymous"></script>
+
+<!-- Custom JS -->
+<script src="js/script1.js"></script>
+</body>
+</html>
